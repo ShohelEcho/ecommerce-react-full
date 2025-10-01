@@ -30,7 +30,7 @@ export default async function AuthLayout({
         <Toaster />
         {children}
       </main>
-      <main className='mx-auto max-w-sm min-w-80 p-4'>{children}</main>
+
       <footer className=' flex-1 mt-8  bg-gray-800 w-full flex flex-col gap-4 items-center p-8 text-sm'>
         <div className='flex justify-center space-x-4'>
           <Link href='/page/conditions-of-use'>Conditions of Use</Link>
